@@ -1,0 +1,152 @@
+
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigation*/
+.nav {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    text-decoration: underline;
+    align-items: center;
+}
+
+.nav img {
+    margin: 10px;
+    width: 10%;
+    height: 50px;
+}
+
+ul {
+    text-align: right;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.nav li a {
+    color: seashell;
+    margin: 0; 
+}
+
+
+/* Mission*/
+.mission {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f6c061ca71799093f55fd02/Aromatic-herbal-tea-/0x0.jpg?format=jpg&crop=5029,3354,x0,y0,safe&width=960");
+    background-position: center;
+    text-align: center;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.mission h2 {
+    width: 1300px;
+    background-color: black;
+    margin:0;
+    padding-top: 0.5rem;
+    align-items: center;
+}
+
+.mission h4 {
+    width: 1300px;
+    background-color: black;
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+}
+
+/* Tea of the Month*/
+
+.feature {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.feature img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+figure {
+    margin: 10px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+/* location*/
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*gmdkzo*_ga*OTQ5NDc5NzQ4OC4xNjczNDYzMjI4*_ga_3LRZM6TM9L*MTY3Mzk4NTg5My4yMC4xLjE2NzM5ODY0NTYuNTkuMC4w");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin: 100px auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.locations h2 {
+    margin: 0;
+}
+
+.location-box {
+    margin: 15px 40px 0px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+
+.address {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 20px;
+}
+
+
+/* contact*/
+.contact {
+    width: 100%;
+    min-height: 200px;
+}
+
+/* footer*/
+footer {
+    text-align: left;
+    padding-right: 20px;
+}
+
